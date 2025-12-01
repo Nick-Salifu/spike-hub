@@ -1,4 +1,5 @@
 import Analytics from "./Analytics/Analytics"
+import Features from "./Features/Features"
 import Hero from "./Hero/Hero"
 import WhyChoose from "./WhyChoose/WhyChoose"
 
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <WhyChoose />
       <Analytics />
+      <Features />
     </div>
   )
 }
