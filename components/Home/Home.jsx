@@ -1,6 +1,7 @@
 import Analytics from "./Analytics/Analytics"
 import Features from "./Features/Features"
 import Hero from "./Hero/Hero"
+import Reviews from "./Reviews/Reviews"
 import WhyChoose from "./WhyChoose/WhyChoose"
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <WhyChoose />
       <Analytics />
       <Features />
+      <Reviews />
     </div>
   )
 }
