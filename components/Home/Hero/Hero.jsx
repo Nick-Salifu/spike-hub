@@ -12,7 +12,7 @@ const Hero = () => {
                         <p className="text-xs sm:text-sm">We have updated our terms and condition policy</p>
                     </div>
                     
-                    <h1 className="text-2xl sm:text-4xl md:text-[2.60rem] font-bold my-6 md:leading-[3rem] lg:leading-[3.5rem]">The premier workspace companion for your daily needs.</h1>
+                    <h1 data-aos="fade-up" className="text-2xl sm:text-4xl md:text-[2.60rem] font-bold my-6 md:leading-12 lg:leading-14">The premier workspace companion for your daily needs.</h1>
                     <p className="text-gray-700 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, dolore alias doloribus eos, impedit est facere praesentium laborum obcaecati soluta magnam voluptates! Rem, tenetur magni!</p>
                     <div className="flex items-center my-6 space-x-4">
                         <Image src="/images/gp.png" alt="google store" className="object-contain" width={150} height={150} />
@@ -21,7 +21,7 @@ const Hero = () => {
                 </div>
                 
                 {/* Image content */}
-                <div className="hidden lg:block">
+                <div data-aos="fade-up" data-aos-delay="200" className="hidden lg:block">
                     <Image src="/images/hero.png" alt="hero image" width={700} height={700} />
                 </div>
             </div>
