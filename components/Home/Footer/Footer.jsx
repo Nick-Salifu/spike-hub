@@ -13,7 +13,7 @@ const Footer = () => {
                     </h1>
                     {/* Descriptions */}
                     <p className="mt-4 text-sm font-medium w-[80%] text-gray-600 leading-8">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi harum officiis, unde molestiae ratione inventore illo rem!
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi harum
                     </p>
                 </div>
                 {/* About us */}
